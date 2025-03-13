@@ -1,0 +1,78 @@
+/* ---- FORMULARIO ---- */
+.product-form {
+  margin: 20px auto;
+  padding: 25px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+/* ---- TÍTULO ---- */
+.dialog-title {
+  font-size: 1.6em;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* ---- CONTENIDO ---- */
+mat-dialog-content {
+  font-size: 1.1em;
+  color: #444;
+  padding: 10px;
+  text-align: center;
+}
+
+/* ---- INPUTS ---- */
+.styled-input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.styled-input input {
+  border-radius: 6px !important;
+  border: 1px solid white;
+  padding: 10px;
+  font-size: 1em;
+}
+
+/* ---- ACCIONES (BOTONES) ---- */
+.dialog-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+/* ---- BOTÓN CANCELAR ---- */
+.cancel-btn {
+  padding: 8px 18px;
+  font-size: 0.95em;
+  border-radius: 6px;
+  background-color: #e0e0e0;
+  color: #333;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.cancel-btn:hover {
+  background-color: #bdbdbd;
+}
+
+/* ---- BOTÓN CREAR ---- */
+.submit-btn {
+  padding: 8px 18px;
+  font-size: 0.95em;
+  border-radius: 6px;
+  background-color: green;
+  color: white;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.submit-btn:hover {
+  background-color: black;
+  color: white;
+}

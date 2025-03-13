@@ -1,0 +1,24 @@
+<h2 mat-dialog-title class="dialog-title">Actualizar Producto </h2>
+<mat-dialog-content>
+  <form (ngSubmit)="updateProduct()">
+    <mat-form-field appearance="outline" class="styled-input">
+      <mat-label>ID del Producto</mat-label>
+      <input matInput type="number" [(ngModel)]="productToUpdate.Id" name="id" required />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="styled-input">
+      <mat-label>Nombre del Producto</mat-label>
+      <input matInput type="text" [(ngModel)]="productToUpdate.Name" name="name" required />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="styled-input">
+      <mat-label>Precio del Producto</mat-label>
+      <input matInput type="number" [(ngModel)]="productToUpdate.Price" name="price" required />
+    </mat-form-field>
+  </form>
+</mat-dialog-content>
+
+<mat-dialog-actions class="dialog-actions">
+  <button mat-button class="cancel-btn" (click)="cancel()">Cancelar</button>
+  <button mat-button color="warn" class="update-btn" (click)="updateProduct()">Actualizar</button>
+</mat-dialog-actions>

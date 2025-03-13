@@ -1,0 +1,96 @@
+/* ---- ESTILOS GENERALES ---- */
+.product-table {
+    margin: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ---- TÍTULO PRINCIPAL ---- */
+.title {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* ---- ENCABEZADO SOBRE LA TABLA ---- */
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF6F61;
+    color: white;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.table-header span {
+    flex: 1;
+    text-align: center;
+}
+
+/* ---- TABLA ---- */
+
+
+/* ---- ENCABEZADO DE LA TABLA ---- */
+th {
+    background-color: #FF6F61;
+    color: black;
+    padding: 35px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+/* ---- CUERPO DE LA TABLA ---- */
+td {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+.notification {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Filas alternas con fondo diferente */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover en filas */
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* ---- BOTONES ---- */
+.btn-action {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+

@@ -1,0 +1,64 @@
+/* ---- TÍTULO ---- */
+.dialog-title {
+    font-size: 1.8em;
+    font-weight: bold;
+    background: linear-gradient(90deg, #000000, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding: 15px 0;
+    letter-spacing: 1px;
+}
+
+/* ---- CONTENIDO ---- */
+mat-dialog-content {
+    font-size: 1.2em;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ---- INPUTS ---- */
+.styled-input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.styled-input input {
+    border-radius: 10px !important;
+}
+
+/* ---- ACCIONES (BOTONES) ---- */
+.dialog-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+/* ---- BOTÓN CANCELAR ---- */
+.cancel-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 8px;
+    background-color: #bbb;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cancel-btn:hover {
+    background-color: #999;
+}
+
+/* ---- BOTÓN ACTUALIZAR ---- */
+.update-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 8px;
+    background-color: #FF6F61;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.update-btn:hover {
+    background-color: #E65C50;
+}
